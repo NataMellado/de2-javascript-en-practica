@@ -1,14 +1,11 @@
 :root {
     /* colors */
-    --clr-primary: #4b4b4b;
+    --clr-primary: #e7e7e7;
+    --clr-secondary: #2c2c2c;
     --clr-nt: white;
 
     /* fonts */
     --ff-primary: 'Roboto', sans-serif;
-    /* font weight */
-    --fw-300: 300;
-    --fw-400: 400;
-    --fw-500: 500;
 }
 
 /* Reset CSS */
@@ -32,12 +29,73 @@ p {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    min-height: 100dvh;
     font-family: var(--ff-primary);
     font-weight: var(--fw-400);
-    color: var(--clr-primary);
+    color: var(--clr-secondary);
     background-color: var(--clr-nt);
 
 }
+
+.navbar {
+    background-color: var(--clr-primary);
+}
+
+.nav-container {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: clamp(1rem, 5vw, 2rem);
+    width: 100%;
+    justify-content: center;
+}
+
+
+main {
+    justify-content: center;
+    margin-top: 7rem;
+    padding: 0 1rem;
+}
+
+main h1 {
+    font-size: clamp(1.5rem, 6vw, 2rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+section .contenido {
+    width: 100%;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 3rem;
+    background-color: var(--clr-primary);
+}
+
+footer a {
+    color: var(--clr-secondary);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+
+
 
 
 
