@@ -2,6 +2,11 @@
 
 En este desafío validaremos nuestros conocimientos de Document Object Model (DOM), eventos del DOM para reaccionar a elementos HTML y Expresiones Regulares.
 
+## Capturas
+![](./assets/images/1.png)
+![](./assets/images/2.png)
+![](./assets/images/3.png)
+
 ## Descripción
 
 En tus tareas como desarrollador/a no sólo tendrás que escribir código desde 0, sino que muchas veces tendrás que completar tareas junto con tu equipo de trabajo, colaborando con las habilidades que cada uno posee para construir el proyecto solicitado.
