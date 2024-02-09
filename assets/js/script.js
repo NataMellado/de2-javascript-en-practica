@@ -1,3 +1,4 @@
+// Funcion para cargar el contenido de los ejercicios HTML en el div con id "contenido" del index.html
 function cargarContenido(url) {
     // Utiliza la Fetch API para cargar el contenido
     fetch(url)

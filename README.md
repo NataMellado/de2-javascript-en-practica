@@ -11,8 +11,7 @@ En el siguiente desafío pondremos en práctica el uso de listener y selectores 
 
 ## Requerimientos
 
-1. Desarrollar un código para validar un formulario de contacto utilizando el evento 
-submit y las expresiones regulares que permitan el ingreso de caracteres desde la “A-a” hasta la “Z-z” mediante el método test() de JavaScript, mostrando un mensaje de error y/o éxito cuando corresponda. Es decir, el usuario deberá obligatoriamente ingresar datos en el formulario y que estos solo sean caracteres alfabéticos de la “a” hasta la “z” para poder enviar la información. Como se muestra en las siguientes imágenes:
+1. Desarrollar un código para validar un formulario de contacto utilizando el evento submit y las expresiones regulares que permitan el ingreso de caracteres desde la “A-a” hasta la “Z-z” mediante el método test() de JavaScript, mostrando un mensaje de error y/o éxito cuando corresponda. Es decir, el usuario deberá obligatoriamente ingresar datos en el formulario y que estos solo sean caracteres alfabéticos de la “a” hasta la “z” para poder enviar la información. Como se muestra en las siguientes imágenes:
 
 ![](./assets/images/example1.png)
 
