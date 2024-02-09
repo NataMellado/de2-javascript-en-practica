@@ -1,0 +1,43 @@
+:root {
+    /* colors */
+    --clr-primary: #4b4b4b;
+    --clr-nt: white;
+
+    /* fonts */
+    --ff-primary: 'Roboto', sans-serif;
+    /* font weight */
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+}
+
+/* Reset CSS */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-400);
+    color: var(--clr-primary);
+    background-color: var(--clr-nt);
+
+}
+
+
+
